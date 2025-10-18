@@ -8,7 +8,7 @@ function CategoryNews() {
 
   const [categoryNews, setCategoryNews] = useState([]);
 
-  // console.log(id,news)
+
 
   useEffect(() => {
     if (id == "0") {

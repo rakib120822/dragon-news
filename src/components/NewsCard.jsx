@@ -1,8 +1,9 @@
 import React from "react";
 import { FaEye, FaStar, FaShareAlt, FaBookmark } from "react-icons/fa";
+import { Link } from "react-router";
 
 function NewsCard({ news }) {
-  const { title, author, rating, total_view, details, tags, thumbnail_url } =
+  const {id, title, author, rating, total_view, details, tags, thumbnail_url } =
     news;
 
   // Format date nicely
@@ -51,9 +52,9 @@ function NewsCard({ news }) {
         {/* News Details */}
         <p className="text-sm sm:text-base text-gray-700 mb-2 leading-relaxed">
           {details.slice(0, 150)}...
-          <span className="text-orange-500 font-semibold cursor-pointer hover:underline">
+          <Link to={`/news-details/${id}`} className="text-orange-500 font-semibold cursor-pointer hover:underline">
             Read More
-          </span>
+          </Link>
         </p>
 
         {/* Tags */}
