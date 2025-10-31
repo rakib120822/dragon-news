@@ -1,16 +1,92 @@
-# React + Vite
+### Dragon News
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dragon News is a news reading website built using Vite + React, React Router, Tailwind CSS, DaisyUI, Marquee, and Firebase Authentication.
+The website allows users to browse news by category, read detailed news, and interact with dynamic content.
 
-Currently, two official plugins are available:
+### Live Website: https://dragon-news-breaking-b9120.web.app/category/1
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 📝 Project Overview
 
-## React Compiler
+Dragon News is a dynamic news reading website that provides users with category-wise news and detailed articles.
+The website fetches news data from a fake JSON data in the public folder.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Key Sections:
 
-## Expanding the ESLint configuration
+Browse news by category
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Read detailed news
+
+Dynamic news display with Marquee effect
+
+User authentication using Firebase
+
+### 🛠️ Technologies Used
+
+Vite + React
+
+React Router
+
+Tailwind CSS
+
+DaisyUI
+
+Marquee
+
+Firebase Authentication
+
+### ✨ Key Features
+
+📰 Fetch news from JSON data
+
+📂 Category-wise news browsing
+
+📖 Read detailed news with full article view
+
+🌐 Firebase Authentication for secure user access
+
+Responsive and user-friendly layout
+
+### 🚀 How to Use
+
+Clone the repository:
+
+git clone <your-repo-link>
+
+
+Navigate to the project folder:
+
+cd dragon-news
+
+
+Install dependencies:
+
+npm install
+
+
+Run the development server:
+
+npm run dev
+
+
+Open the URL provided by Vite (e.g., http://localhost:5173) in a browser.
+
+### 🎯 Future Targets
+
+Add Admin Panel for managing news content
+
+Integrate database for persistent news storage
+
+Create additional pages:
+
+Contact Us
+
+FAQ Page
+
+About Page
+
+Enhance interactivity and analytics using React components and Marquee
+
+### 👨‍💻 Author
+
+Rakibul Islam Payel
+GitHub: https://github.com/rakib120822
